@@ -17,6 +17,7 @@ import AppStack from './src/routes/AppStack';
 //navagação em abas
 //yarn add @react-navigation/bottom-tabs 
 //yarn add axios
+//expo install @react-native-community/async-storage
 export default function App() {
   let [fontsLoaded] = useFonts({
     Archivo_400Regular,
